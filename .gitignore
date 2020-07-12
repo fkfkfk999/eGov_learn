@@ -1,0 +1,16 @@
+# Compiled class file
+/DATABASE
+DATABASE/
+/build
+build/
+/target
+target/
+/.settings
+.settings/
+*.classpath
+*.gitattributes
+*.project
+/.recommenders/
+.metadata
+Servers
+﻿globals.properties
