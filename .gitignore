@@ -13,4 +13,4 @@ target/
 /.recommenders/
 .metadata
 Servers
-﻿globals.properties
+egovProps/
