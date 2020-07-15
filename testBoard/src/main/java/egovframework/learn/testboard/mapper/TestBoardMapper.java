@@ -7,9 +7,9 @@ import egovframework.rte.psl.dataaccess.mapper.Mapper;
 
 @Mapper("testBoardMapper")
 public interface TestBoardMapper {
-	public List<TestBoardVO> getTestBoardAllList();
-	public TestBoardVO getTestBoardView(String seqno);
-	public int insertTestBoard(TestBoardVO vo);
-	public int updateTestBoard(TestBoardVO vo);
-	public int deleteTestBoard(String seqno);
+	public List<TestBoardVO> getTestBoardAllList() throws Exception;
+	public TestBoardVO getTestBoardView(String seqno) throws Exception;
+	public int insertTestBoard(TestBoardVO vo) throws Exception;
+	public int updateTestBoard(TestBoardVO vo) throws Exception;
+	public int deleteTestBoard(String seqno) throws Exception;
 }
