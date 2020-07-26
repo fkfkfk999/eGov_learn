@@ -11,6 +11,6 @@
 	</bean>
 	
 	<bean class="egovframework.rte.psl.dataaccess.mapper.MapperConfigurer">
-		<property name="basePackage" value="egovframework.learn.**.mapper" />
+		<property name="basePackage" value="egovframework.learn.testboard.mapper" />
 	</bean>
 </beans>
