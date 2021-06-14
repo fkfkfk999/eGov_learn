@@ -127,7 +127,7 @@
 		<dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.31</version>
+            <version>8.0.16</version>
         </dependency>
         <!-- mysql이나 oracle DB 사용시 아래 설정 추가
         <dependency>
